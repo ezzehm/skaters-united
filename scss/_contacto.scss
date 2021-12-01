@@ -1,0 +1,38 @@
+
+.noticiasContacto {
+	font-size: 1.5rem;
+}
+.formularioContacto {
+	label {
+		display: block;
+	}
+	textarea {
+		display: block;
+	}
+}
+.mainContacto {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 5rem;
+	justify-items: center;
+	padding-top: 5rem;
+	form {
+		width: 120rem;
+	}
+	img{
+		margin-left: 20rem;
+	}
+}
+.btn-lg {
+	width: 10rem;
+	margin-top: 2rem;
+}
+
+.bordeForm{
+	border-style: double;
+	border-radius: 1rem;
+	border-color: orange;
+	padding: 1rem;
+	margin: 1rem;
+}

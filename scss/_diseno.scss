@@ -1,0 +1,44 @@
+.mainDiseno {
+	h3 {
+		color: lightblue;
+		font-size: 3rem;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		padding-top: 5rem;
+		text-align: center;
+		text-decoration: underline;
+	}
+}
+
+.imagesDiseno {
+	display: grid;
+	grid-template-columns: 90rem 90rem;
+	grid-template-rows: 100rem;
+	justify-items: center;
+	img {
+		width: 60rem;
+		padding-top: 10rem;
+	}
+}
+
+.text-center{
+	padding-top: 1rem;
+}
+
+@keyframes colores{
+	0%{background-color: red;}
+	20%{background-color: yellow;}
+	40%{background-color: white;}
+	60%{background-color: green;}
+	80%{background-color: blue;}
+	100%{background-color: purple;}
+}
+
+.animacionColores{
+	width: 40rem;
+	height: 40rem;
+	background-color: red;
+	animation-name: colores;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}

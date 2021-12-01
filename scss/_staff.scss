@@ -1,0 +1,40 @@
+.integranteStaff {
+	font-size: 3rem;
+	text-align: left;
+	line-height: 3rem;
+	padding: 1rem;
+	overflow: auto;
+	color: rgb(202, 195, 195);
+	border-right: inset;
+	border-color: rgb(221, 221, 221);
+}
+
+.integranteStaff3 {
+	font-size: 3rem;
+	text-align: left;
+	line-height: 3rem;
+	padding: 1rem;
+	overflow: auto;
+	color: rgb(202, 195, 195);
+}
+
+.cajaStaff {
+	display: grid;
+	grid-template-columns: 60rem 60rem 60rem;
+	grid-template-rows: 40rem 40rem;
+	justify-items: center;
+	padding-top: 8rem;
+	padding-left: 2rem;
+	grid-column-gap: 2rem;
+	img {
+		width: 30rem;
+		padding-top: 4rem;
+	}
+}
+
+.tituloStaff{
+	text-align: center;
+	color: whitesmoke;
+	text-transform: uppercase;
+	margin-top: 2rem;
+}

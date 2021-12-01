@@ -1,0 +1,23 @@
+.containerTienda {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 35rem 35rem;
+	justify-items: center;
+	align-items: baseline;
+	padding-top: 5rem;
+}
+
+.tituloTienda{
+	text-align: center;
+	color: lightblue;
+	text-transform: uppercase;
+	margin-top: 2rem;
+}
+
+.subtituloTienda{
+	font-family: cursive;
+	text-align: center;
+	color: lightblue;
+	font-size: 2rem;
+	margin-top: 1rem;
+}

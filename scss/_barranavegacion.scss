@@ -1,0 +1,45 @@
+.barra-nav{
+	font-family: 'Stick No Bills', sans-serif;
+	text-align: center;
+	li {
+		display: inline-block;
+		padding: 0rem 5rem;
+		text-align: center;
+	}
+	a {
+		&:hover {
+			color: rgb(44, 93, 226);
+		}
+	}
+}
+.seccionAct {
+	color: lightskyblue;
+}
+
+.d-inline-block{
+    border-right: inset;
+    border-color: white;
+    
+}
+
+.volverInicio{
+	padding-top: 5rem;
+	li{
+		text-align: center;
+		font-family: 'Stick No Bills', sans-serif;
+	}
+	a {
+		&:hover {
+			color: lightskyblue;
+		}
+	}
+}
+.carrusel__titulo{
+	font-size: 4rem;
+	color: lightskyblue;
+}
+
+.carrusel__parrafo{
+	font-size: 2rem;
+	color: whitesmoke;
+}
